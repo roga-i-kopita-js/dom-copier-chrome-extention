@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DOM Copier",
+  "version": "1.0",
+  "description": "Копирует разметку элемента из DevTools-панели",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon16.png",
+      "128": "icons/icon16.png"
+    }
+  },
+  "devtools_page": "devtools.html"
+}
