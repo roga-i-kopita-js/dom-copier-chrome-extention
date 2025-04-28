@@ -27,7 +27,10 @@ btn.addEventListener('click', () => {
             status.textContent = exceptionInfo.value || exceptionInfo.description;
         } else {
             // 2) Копируем уже в панели расширения
-            copyInPanel(html);
+            copyInPanel(`Привет! я прохожу тест, мне нужно, чтобы ты проанадизоровал html который я тебе отправлю, в нем будет вопрос, если в этом html будут варианты ответа ты должен будешь выбрать правильные, если ответов не будет дать свой собственный ответ
+            Вот код html:
+            ${html}
+            `);
         }
     });
 });
